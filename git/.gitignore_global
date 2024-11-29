@@ -1,0 +1,33 @@
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+.Trash
+
+# Ignore logs and temporary files
+*.log
+*.swp
+*.tmp
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Compiled C++ files
+*.out
+
+# Application specific files
+venv
+node_modules
+.sass-cache
+
+# RSA keys, just in case
+*rsa*

@@ -1,0 +1,27 @@
+[user]
+	name = Tareq Alansari
+	email = tareqayz@student.ubc.ca
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	amend = commit --amend
+	lg = log --oneline --graph --decorate --all
+[core]
+	editor = nvim
+	pager = less
+	excludesfile = ~/.gitignore_global
+[pull]
+    rebase = true
+[color]
+    ui = auto
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[credential]
+	helper = store
+[push]
+	autoSetupRemote = true
