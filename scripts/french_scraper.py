@@ -194,7 +194,22 @@ def main():
     base_dir = Path("/Users/tareqalansari/Documents/vault.2.0/2 - Source Material/French")
     
     scraper = SimpleFrenchScraper(base_dir)
-    scraper.process_verb("parler")
+
+    verbs_dir = base_dir / "verbs"
+    verb_files = list(verbs_dir.glob("*.md"))
+    total_verbs = len(verb_files)
+    
+    print(f"\nFound {total_verbs} verb files to process")
+    
+    # Process each verb with progress tracking
+    for i, verb_file in enumerate(verb_files, 1):
+        verb = verb_file.stem
+        print(f"\n[{i}/{total_verbs}] Processing verb: {verb}")
+        print("-" * 50)
+        scraper.process_verb(verb)
+        print("-" * 50)
+    
+    print("\nProcessing complete!")
 
 if __name__ == "__main__":
     main()
