@@ -1,0 +1,11 @@
+preload = ~/Pictures/wallpapers/dune.png
+wallpaper {
+  monitor = eDP-1
+  path = ~/Pictures/wallpapers/dune.png
+  fit_mode = cover
+}
+wallpaper {
+  monitor = DP-1
+  path = ~/Pictures/wallpapers/dune.png
+  fit_mode = cover
+}
