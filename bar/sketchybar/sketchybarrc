@@ -11,7 +11,8 @@ source "$CONFIG_DIR/default.sh"
 
 # Items
 source "$ITEMS_DIR/spaces.sh"
-
+source "$ITEMS_DIR/claude.sh"
+source "$ITEMS_DIR/ms_office.sh"
 ##### Adding Mission Control Space Indicators #####
 # Let's add some mission control spaces:
 # https://felixkratz.github.io/SketchyBar/config/components#space----associate-mission-control-spaces-with-an-item
