@@ -13,6 +13,11 @@ source "$CONFIG_DIR/default.sh"
 source "$ITEMS_DIR/spaces.sh"
 source "$ITEMS_DIR/claude.sh"
 source "$ITEMS_DIR/ms_office.sh"
+source "$ITEMS_DIR/password_depot.sh"
+#source "$ITEMS_DIR/dev.sh" To open VSCode, XCode, Arduino, Docker, Android Studio
+#source "ITEMS_DIR/library.sh" To open notes, journal and books (i.e. library) Obsidian
+#
+#
 ##### Adding Mission Control Space Indicators #####
 # Let's add some mission control spaces:
 # https://felixkratz.github.io/SketchyBar/config/components#space----associate-mission-control-spaces-with-an-item
