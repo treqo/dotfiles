@@ -12,6 +12,7 @@ source "$CONFIG_DIR/default.sh"
 # Items
 source "$ITEMS_DIR/apple.sh"
 source "$ITEMS_DIR/spaces.sh"
+source "$ITEMS_DIR/settings.sh"
 source "$ITEMS_DIR/claude.sh"
 source "$ITEMS_DIR/ms_office.sh"
 source "$ITEMS_DIR/password_depot.sh"
